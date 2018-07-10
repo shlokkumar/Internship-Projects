@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" 
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" 
+	id="WebApp_ID" version="3.1"> <servlet> <servlet-name>FormCheck</servlet-name> 
+	<servlet-class>servdb.Signin</servlet-class> </servlet> <servlet-mapping> 
+	<servlet-name>FormCheck</servlet-name> <url-pattern>/submit/*</url-pattern> 
+	</servlet-mapping> <servlet> <servlet-name>Showdb</servlet-name> <servlet-class>servdb.Show</servlet-class> 
+	</servlet> <servlet-mapping> <servlet-name>Showdb</servlet-name> <url-pattern>/show/*</url-pattern> 
+	</servlet-mapping> <servlet> <servlet-name>logout</servlet-name> <servlet-class>servdb.Logout</servlet-class> 
+	</servlet> <servlet-mapping> <servlet-name>logout</servlet-name> <url-pattern>/lout/*</url-pattern> 
+	</servlet-mapping> <servlet> <servlet-name>Deleteunm</servlet-name> <servlet-class>servdb.Deleteu</servlet-class> 
+	</servlet> <servlet-mapping> <servlet-name>Deleteunm</servlet-name> <url-pattern>/del/*</url-pattern> 
+	</servlet-mapping> </web-app> -->
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <servlet>
+    <servlet-name>regserv</servlet-name>
+    <servlet-class>servdb.Register</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>regserv</servlet-name>
+    <url-pattern>/register/*</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>loginserv</servlet-name>
+    <servlet-class>servdb.Logon</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>loginserv</servlet-name>
+    <url-pattern>/lin/*</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>showserv</servlet-name>
+    <servlet-class>servdb.Showall</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>showserv</servlet-name>
+    <url-pattern>/show</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>delserv</servlet-name>
+    <servlet-class>servdb.Deleteall</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>delserv</servlet-name>
+    <url-pattern>/del/*</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>showeveryserv</servlet-name>
+    <servlet-class>servdb.Showevery</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>showeveryserv</servlet-name>
+    <url-pattern>/showal/*</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>updateserv</servlet-name>
+    <servlet-class>servdb.Update</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>updateserv</servlet-name>
+    <url-pattern>/update/*</url-pattern>
+  </servlet-mapping>
+</web-app>
