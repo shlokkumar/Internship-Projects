@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" 
-	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" 
-	id="WebApp_ID" version="3.1"> <servlet> <servlet-name>FormCheck</servlet-name> 
-	<servlet-class>servdb.Signin</servlet-class> </servlet> <servlet-mapping> 
-	<servlet-name>FormCheck</servlet-name> <url-pattern>/submit/*</url-pattern> 
-	</servlet-mapping> <servlet> <servlet-name>Showdb</servlet-name> <servlet-class>servdb.Show</servlet-class> 
-	</servlet> <servlet-mapping> <servlet-name>Showdb</servlet-name> <url-pattern>/show/*</url-pattern> 
-	</servlet-mapping> <servlet> <servlet-name>logout</servlet-name> <servlet-class>servdb.Logout</servlet-class> 
-	</servlet> <servlet-mapping> <servlet-name>logout</servlet-name> <url-pattern>/lout/*</url-pattern> 
-	</servlet-mapping> <servlet> <servlet-name>Deleteunm</servlet-name> <servlet-class>servdb.Deleteu</servlet-class> 
-	</servlet> <servlet-mapping> <servlet-name>Deleteunm</servlet-name> <url-pattern>/del/*</url-pattern> 
-	</servlet-mapping> </web-app> -->
+
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
   <servlet>
     <servlet-name>regserv</servlet-name>
